@@ -184,6 +184,7 @@ section.footer {
   z-index: 50;
   display: flex;
   justify-content: space-around;
+  border-radius: 40px 40px 0px 0px;
 }
 
 .footer .menu {
@@ -192,7 +193,8 @@ section.footer {
   margin: 0;
   display: flex;
   justify-content: space-between;
-  width: 345px;
+  width: 344px;
+  margin-top: 22px;
 }
 
 .footer .menu li {
@@ -200,4 +202,11 @@ section.footer {
   height: 37px;
   margin: 5px;
   line-height: 50px;
+}
+
+.footer .home-indicator {
+  position: absolute;
+  width: 414px;
+  height: 37px;
+  top: 79px;
 }
