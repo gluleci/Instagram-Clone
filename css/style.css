@@ -210,3 +210,45 @@ section.footer {
   height: 37px;
   top: 79px;
 }
+
+/************************************ Search Page **************************************/
+
+.container-search .search-nav {
+  overflow: hidden;
+  background-color: #eaeef1;
+  width: 338px;
+  height: 42px;
+  padding-left: 14px;
+  border-radius: 19px;
+  margin-bottom: 9px;
+}
+
+.search-text input[type="text"] {
+  float: left;
+  font-family: "Mulish", sans-serif;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #eaeef1;
+}
+
+.search-icon {
+  float: right;
+  width: 38px;
+  margin-top: 11px;
+}
+
+.container-search {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-right: 57px;
+}
+
+.upper-case {
+  background-color: #ffffff;
+  border-radius: 0px 0px 38px 38px;
+}
